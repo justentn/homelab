@@ -1,0 +1,3 @@
+[submodule "services/iot"]
+	path = services/iot
+	url = git@github.com:justentn/iot.git
