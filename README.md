@@ -22,7 +22,7 @@ To aid in automation and monitoring of tasks around the home, I will be utilizin
 
 - Automatic Garden Care
   - [ ] Sensor Integrations
-    - [ ] Capacitive Soil Moisture Sensor
+    - [x] Capacitive Soil Moisture Sensor
     - [ ] Water Pump
   - [ ] MQTT Integration 
   - [ ] REST API to grab IoT sensor data on demand
