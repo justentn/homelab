@@ -21,7 +21,9 @@ To aid in automation and monitoring of tasks around the home, I will be utilizin
 ## TODO
 
 - Automatic Garden Care
-  - [ ] Capacitive Soil Moisture Sensor Integration
+  - [ ] Sensor Integrations
+    - [ ] Capacitive Soil Moisture Sensor
+    - [ ] Water Pump
   - [ ] MQTT Integration 
   - [ ] REST API to grab IoT sensor data on demand
   - [ ] Setup LLM to analyze growth 

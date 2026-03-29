@@ -1,4 +1,4 @@
-import styles from './Navbar.module.css'
+import styles from './NavBar.module.css'
 import { NavLink } from 'react-router-dom'
 
 interface NavItem {
