@@ -1,16 +1,17 @@
-COM_PORT := /dev/ttyUSB0
+COM_PORT := COM6
 IOT_DIR := ./services/iot/esp32
+PYTHON_EXEC := python
 
 frontend:
 	cd ./frontend && npm run dev &
 
 backend:
 	pip install -r ./backend/requirements.txt
-	cd ./backend && /usr/bin/env python3 manage.py runserver &
+	cd ./backend && $(PYTHON_EXEC) manage.py runserver &
 
 mqtt:
 	pip install -r ./backend/requirements.txt
-	cd ./backend && /usr/bin/env python3 manage.py mqtt_broker &
+	cd ./backend && $(PYTHON_EXEC) manage.py mqtt_broker &
 
 .PHONY: stack frontend backend
 
