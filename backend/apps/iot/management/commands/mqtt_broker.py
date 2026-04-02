@@ -8,6 +8,10 @@ config = {
             'type': 'tcp',
             'bind': '0.0.0.0:1883'
         }
+    },
+    'sys_interval': 10,
+    'auth': {
+        'allow-anonymous': True
     }
 }
 
